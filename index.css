@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #684BB1;
+    color: white;
 }
 
 header,
@@ -20,11 +21,22 @@ footer {
 }
 
 /* --- TYPOGRAPHY --- */
+.title {
+   font-size: 1.6rem;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   font-weight: 500;
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 
 /* --- HERO --- */
 header {
     margin-top: 2em;
-    /* position: relative; */
 }
 
 .hero-logo {
@@ -39,7 +51,6 @@ header {
 }
 
 /* --- HERO BACKGROUND SHAPES --- */
-
 .hero-background {
     position: absolute;
 }
@@ -65,3 +76,8 @@ header {
 }
 
 /* --- MAIN SECTION --- */
+main {
+    margin-top: 20em;
+    text-align: center;
+    line-height: 1.6;
+}
