@@ -11,3 +11,57 @@ body {
     padding: 0;
     background-color: #684BB1;
 }
+
+header,
+main,
+footer {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+/* --- TYPOGRAPHY --- */
+
+/* --- HERO --- */
+header {
+    margin-top: 2em;
+    /* position: relative; */
+}
+
+.hero-logo {
+    max-width: 120px;
+}
+
+.hero-img {
+    position: absolute;
+    max-width: 300px;
+    left: 45px;
+    top: 120px;
+}
+
+/* --- HERO BACKGROUND SHAPES --- */
+
+.hero-background {
+    position: absolute;
+}
+
+.stripe-right {
+    top: -30px;
+}
+
+.stripe-left {
+    top: 80px;
+    left: -30px;
+}
+
+.diamond-top {
+    max-width: 20px;
+    left: 130px;
+    top: 80px;
+}
+
+.diamond-right {
+    right: 30px;
+    top: 160px;
+}
+
+/* --- MAIN SECTION --- */
