@@ -13,6 +13,11 @@ body {
     color: white;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 header,
 main,
 footer {
@@ -117,4 +122,15 @@ main {
     padding: .5em 4em;
     cursor: pointer;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* --- FOOTER --- */
+footer {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.footer-link {
+    margin-right: .5em;
+    cursor: pointer;
 }
